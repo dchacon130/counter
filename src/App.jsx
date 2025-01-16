@@ -9,7 +9,7 @@ function App() {
     setEstado(estado + 1);
   }
 
-  function buttonMinius(){
+  function buttonMinimum(){
     setEstado(estado - 1);
   }
 
@@ -17,7 +17,7 @@ function App() {
     <>
       <h1>Contador: {estado}</h1>
       <button className="buttonPlus" onClick={buttonPlus} type="button">+</button>
-      <button className="buttonMinius" onClick={buttonMinius} type="button">-</button>
+      <button className="buttonMinimum" onClick={buttonMinimum} type="button">-</button>
     </>
   )
 }
